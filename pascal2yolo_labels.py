@@ -51,7 +51,7 @@ def boxesFromPascalVOC(labelPath):
 
 
 def transformPascalVOCBox2YOLO(wI,hI,box,lines):
-    (objectClass,(x,y,w,h),c)=box
+    (objectClass,(x,y,w,h))=box
     clase = lines.index(objectClass)
     x = float(x)
     y = float(y)
@@ -78,8 +78,8 @@ def transformPascalVOCFile2YOLO(imagePath,outputPath,lines):
     else:
         for box in boxes:
             newbox = transformPascalVOCBox2YOLO(W,H,box,lines)
-            (c,x,y,w,h,con) = newbox
-            imagePathsFile.write(str(c) + " " + str(x) + " " + str(y) + " " + str(w) + " " + str(h) + " " + str(con) + "\n")
+            (c,x,y,w,h) = newbox
+            imagePathsFile.write(str(c) + " " + str(x) + " " + str(y) + " " + str(w) + " " + str(h) + "\n")
     imagePathsFile.close()
 
 
