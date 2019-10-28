@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>mxnet/VOC2007/JPEGImages/00002</filename>
+  <path>mxnet/VOC2007/JPEGImages/000027.jpg/mxnet/VOC2007/JPEGImages/000027</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>486</width>
+    <height>500</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>person</name>
+    <confidence>0.99906784</confidence>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>175</xmin>
+      <ymin>101</ymin>
+      <xmax>355</xmax>
+      <ymax>339</ymax>
+    </bndbox>
+  </object>
+</annotation>

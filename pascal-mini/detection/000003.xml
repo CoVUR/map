@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>mxnet/VOC2007/JPEGImages/00000</filename>
+  <path>mxnet/VOC2007/JPEGImages/000003.jpg/mxnet/VOC2007/JPEGImages/000003</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>500</width>
+    <height>375</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+</annotation>
